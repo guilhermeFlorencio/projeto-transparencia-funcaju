@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="202B49CA-3307-748C-8ACE-71057A85B96E" containerWithKeyObject="F4AED710-3FAE-8D99-1E99-A64952D8F26F" localFKIndex="EEB8EDD3-6E24-01F0-0431-DCB299116C16" name="FT_DESPESAS_DM_TIPO_DESPESA_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:39:21 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<referredTableLongName>DM_TIPO_DESPESA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC40C5B8-8DDC-9E64-34D0-53C906D465CC</referredTableID>
+<keyObject>0A71961B-7EE8-3E25-6EE6-985BB89202A1</keyObject>
+<referredKeyID>0A71961B-7EE8-3E25-6EE6-985BB89202A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo_despesa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

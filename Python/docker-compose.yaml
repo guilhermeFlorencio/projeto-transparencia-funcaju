@@ -1,0 +1,15 @@
+version: '2.2'
+
+services:
+
+  postgres:
+    container_name: postgres
+    image: postgres:13
+    volumes:
+      - ./ddl.sql:/docker-entrypoint-initdb.d/ddl.sql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: datawarehouse
+    ports:
+      - 5432:5432

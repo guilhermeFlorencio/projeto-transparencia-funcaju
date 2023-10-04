@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E496106-7217-8704-2211-E90CBF061894" name="DM_TEMPORAL">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:28:08 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_data" id="0CDDE721-4CCC-7FE7-8BBD-6AD4BBEE3265">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:37:42 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ano" id="DFDB2372-70F0-4BB5-A86F-C24F49947A97">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:30:32 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mes" id="22EC714E-8D37-F724-C9CE-CA144B5E3168">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:33:02 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia" id="270852AF-BA30-0DA1-2D15-21AE02C1B8B1">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:33:02 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ED84900-D64F-A6EF-A018-9B49DCBCBCB2" name="DM_TEMPORAL_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:33:15 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CDDE721-4CCC-7FE7-8BBD-6AD4BBEE3265"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

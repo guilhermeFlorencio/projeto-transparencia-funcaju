@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E328C299-5022-89E1-2543-84EF4FC62B6B" mainViewID="547B651C-091D-0803-B06B-89021FA4A33B">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:11:45 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

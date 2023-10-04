@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F883072B-CC29-0219-EE0C-5A4892FEC871" name="DM_CREDOR">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:41:27 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credor" id="77F9348A-740D-732D-CF1D-586818CFD1D2">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:21:58 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_nacional_credor" id="59DA58D2-C27A-F58E-1C73-6D382E0040AC">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:43:34 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_credor" id="0DDB20A4-DAD0-CB94-6AF3-DDA5FDEF94E5">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:43:34 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98BD0EA2-8186-D8CF-9031-8D888C890FC6" name="DM_CREDOR_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:43:34 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F9348A-740D-732D-CF1D-586818CFD1D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE4252A4-0533-87FA-5DEC-1232D8A010ED" name="DM_CREDOR_UK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:23:57 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77F9348A-740D-732D-CF1D-586818CFD1D2"/>
+<colUsage columnID="59DA58D2-C27A-F58E-1C73-6D382E0040AC"/>
+<colUsage columnID="0DDB20A4-DAD0-CB94-6AF3-DDA5FDEF94E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

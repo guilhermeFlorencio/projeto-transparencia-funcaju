@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="916A3B26-0CA9-561D-599E-6427FD97D5DA" containerWithKeyObject="F4AED710-3FAE-8D99-1E99-A64952D8F26F" localFKIndex="A99F13C9-D549-C198-70FC-20B9D985C45A" name="FT_DESPESAS_DM_CREDOR_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:40:18 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<referredTableLongName>DM_CREDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F883072B-CC29-0219-EE0C-5A4892FEC871</referredTableID>
+<keyObject>98BD0EA2-8186-D8CF-9031-8D888C890FC6</keyObject>
+<referredKeyID>98BD0EA2-8186-D8CF-9031-8D888C890FC6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_credor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

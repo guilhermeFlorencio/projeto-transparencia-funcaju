@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52EAB767-CB69-8FB5-E4C4-B68C07A7E79E" name="DM_RESPONSAVEL">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:14:00 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unidade" id="4D441C79-1286-8830-CC6C-3BBA6D64E76A">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:20:48 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_orgao" id="896BA891-A96D-89AC-C98E-42CD6849B2DC">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:20:25 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_unidade" id="85D4405D-5C8B-305B-4546-65E5BEA05DB8">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:22:29 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_orgao" id="4219D89B-43D6-3B91-7552-840CD2B07D7C">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:20:25 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB2D070D-5E85-5E02-21D7-15A170B84ED6" name="DM_RESPONSAVEL_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-25 23:27:16 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D441C79-1286-8830-CC6C-3BBA6D64E76A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

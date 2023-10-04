@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4AED710-3FAE-8D99-1E99-A64952D8F26F" name="FT_DESPESAS">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:09:49 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unidade" id="A45CF9E7-4AC5-30F0-95F0-46EAFF44F84B">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:28:24 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3745E88-55A9-1156-69C9-1B439AC45D52" referredColumn="4D441C79-1286-8830-CC6C-3BBA6D64E76A"/>
+</associations>
+</Column>
+<Column name="id_tipo_despesa" id="814C85CB-1D90-7471-A483-E3A929A1A806">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:30:40 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="202B49CA-3307-748C-8ACE-71057A85B96E" referredColumn="6F577EDF-9A4D-1C0C-2300-6EF9321EA8F7"/>
+</associations>
+</Column>
+<Column name="id_credor" id="160D3254-C696-C613-B3D0-D3199AE6C2A0">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:30:40 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="916A3B26-0CA9-561D-599E-6427FD97D5DA" referredColumn="77F9348A-740D-732D-CF1D-586818CFD1D2"/>
+</associations>
+</Column>
+<Column name="id_data" id="E99DA52F-0231-E5AE-5DA2-59BCB2087FC0">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:31:33 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE9061DA-AD61-0062-1D26-1C4AD41EF38A" referredColumn="0CDDE721-4CCC-7FE7-8BBD-6AD4BBEE3265"/>
+</associations>
+</Column>
+<Column name="id_item_despesa" id="94101AA9-16DF-89E2-4BAE-799907F9205A">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:30:40 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_item_despesa" id="52019499-AF69-734E-04CE-DA9C1D6C74E9">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-27 14:32:20 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_empenhado" id="0085D20A-746C-2528-A5BC-9AD3E2FC7349">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:42:07 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_reforcado" id="F4F75A89-BDAF-EABA-E6B9-11292F07F4E1">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:42:07 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_liquidado" id="6EB7F9EC-1EE3-EB42-8863-4BEA6812AD55">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-27 16:24:08 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_pago" id="BDDE4D61-A875-D349-0CB8-6F46BC9EB02D">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-27 16:23:19 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_retido" id="50CC271A-7C09-B0C6-11C6-4F0A16E3322D">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-27 16:23:19 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_anulado" id="B6961209-A674-CC69-969F-69AC8B9157EE">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:42:07 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_despesa" id="C8B54334-C977-32EA-3EF1-9FF39DAC9610">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 01:00:54 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06886C9A-676A-56D0-C1D6-95A7676DBC8D" name="FT_DESPESAS_PK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:30:40 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45CF9E7-4AC5-30F0-95F0-46EAFF44F84B"/>
+<colUsage columnID="814C85CB-1D90-7471-A483-E3A929A1A806"/>
+<colUsage columnID="160D3254-C696-C613-B3D0-D3199AE6C2A0"/>
+<colUsage columnID="E99DA52F-0231-E5AE-5DA2-59BCB2087FC0"/>
+<colUsage columnID="94101AA9-16DF-89E2-4BAE-799907F9205A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB99DBCA-E192-6775-06F5-62A3977F0CA3" name="FT_DESPESAS_DM_ITEM_DESPESA_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:39:21 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A45CF9E7-4AC5-30F0-95F0-46EAFF44F84B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEB8EDD3-6E24-01F0-0431-DCB299116C16" name="FT_DESPESAS_DM_TIPO_DESPESA_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:39:21 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="814C85CB-1D90-7471-A483-E3A929A1A806"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A99F13C9-D549-C198-70FC-20B9D985C45A" name="FT_DESPESAS_DM_CREDOR_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:40:18 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="160D3254-C696-C613-B3D0-D3199AE6C2A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEF7F292-054E-C3FE-8E85-0B8F8711D70E" name="FT_DESPESAS_DM_TEMPORAL_FK">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 00:40:18 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E99DA52F-0231-E5AE-5DA2-59BCB2087FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
