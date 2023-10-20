@@ -1,7 +1,7 @@
 import pandas as pd
 import psycopg2
 
-anos = ['2018', '2019']#, '2020', '2021', '2022', '2023'] # Adicione aqui o ano referente a planilha que deseja carregar ao DW
+anos = ['2018', '2019', '2020', '2021', '2022', '2023'] # Adicione aqui o ano referente a planilha que deseja carregar ao DW
 tipo_despesa = [1, 2, 3] # 1 = Empenho; 2 = Pagamento; 3 - Liquidação
 desc_tipo_despesa = ['EmpenhosAnuais', 'PagamentosAnuais', 'LiquidaçõesAnuais'] # Sufixo do nome das tabelas
 dataframes = []
@@ -37,14 +37,6 @@ def definir_tipo_despesa(tipo_despesa, i, df):
         df['id_tipo_despesa'] = 3
         return df
 
-#def padronizando_colunas(df):
-#    if tipo_despesa[i] == 1:
-#        df = df.rename(columns={'DsItemDespesa': 'id_item_despesa'})
-#    if tipo_despesa[i] == 2:
-#        df = df.rename(columns={'DsItemDespesa': 'id_item_despesa'})
-#    if tipo_despesa[i] == 3:
-#        df['DsItemDespesaAux'] = df['Sem Cabeçalho 1.1'] + ' ' + df['Sem Cabeçalho 1.2'] # Liquidações
-        
 # Leitura das tabelas Empenho, Pagamento e Liquidação
 def lendo_tabelas(anos, tipo_despesa, dataframes):
     for i in range(len(tipo_despesa)):
