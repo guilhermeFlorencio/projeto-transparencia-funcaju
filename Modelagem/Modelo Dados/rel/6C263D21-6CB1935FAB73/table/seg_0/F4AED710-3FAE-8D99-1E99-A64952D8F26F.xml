@@ -69,17 +69,30 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C8F1678-D612-3149-F24D-ABAB97588A81" referredColumn="27254C64-4642-5443-930D-174E322C2C54"/>
+</associations>
 </Column>
-<Column name="desc_item_despesa" id="52019499-AF69-734E-04CE-DA9C1D6C74E9">
+<Column name="id_despesa" id="25E79F3B-F60D-C438-D8B1-3755C54F6907">
 <createdBy>eduar</createdBy>
-<createdTime>2023-09-27 14:32:20 UTC</createdTime>
+<createdTime>2023-10-19 00:14:06 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_despesa" id="C8B54334-C977-32EA-3EF1-9FF39DAC9610">
+<createdBy>eduar</createdBy>
+<createdTime>2023-09-26 01:00:54 UTC</createdTime>
 <ownerDesignName>Modelo Dados</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="valor_empenhado" id="0085D20A-746C-2528-A5BC-9AD3E2FC7349">
@@ -160,18 +173,6 @@
 <ownDataTypeParameters>,11,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="desc_despesa" id="C8B54334-C977-32EA-3EF1-9FF39DAC9610">
-<createdBy>eduar</createdBy>
-<createdTime>2023-09-26 01:00:54 UTC</createdTime>
-<ownerDesignName>Modelo Dados</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>500,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="06886C9A-676A-56D0-C1D6-95A7676DBC8D" name="FT_DESPESAS_PK">
@@ -187,6 +188,7 @@
 <colUsage columnID="160D3254-C696-C613-B3D0-D3199AE6C2A0"/>
 <colUsage columnID="E99DA52F-0231-E5AE-5DA2-59BCB2087FC0"/>
 <colUsage columnID="94101AA9-16DF-89E2-4BAE-799907F9205A"/>
+<colUsage columnID="25E79F3B-F60D-C438-D8B1-3755C54F6907"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="CB99DBCA-E192-6775-06F5-62A3977F0CA3" name="FT_DESPESAS_DM_ITEM_DESPESA_FK">
@@ -227,6 +229,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E99DA52F-0231-E5AE-5DA2-59BCB2087FC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9C415AF-B6B5-595B-456E-1959CB091633" name="FT_DESPESAS_DM_ITEM_DESPESA_FKv2">
+<createdBy>eduar</createdBy>
+<createdTime>2023-10-19 00:13:40 UTC</createdTime>
+<ownerDesignName>Modelo Dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94101AA9-16DF-89E2-4BAE-799907F9205A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

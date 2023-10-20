@@ -54,4 +54,3 @@ def iterar_df_final(df):
 df = lendo_tabelas(anos, tipo_despesa, dataframes)
 df = gerando_colunas(df)
 iterar_df_final(df)
-print(df)
