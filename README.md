@@ -26,3 +26,15 @@ Caso deseje realizar consultas SQL após o carregamento dos dados, execute:
 
 Para sair do console PostgreSQL, execute:
 * `\q`
+***
+
+#### Conectando o Power BI ao banco de dados
+Com o Power BI aberto, siga:
+* Obter dados;
+* Pesquise por 'Banco de dados PostgreSQL' e clique para conectar; 
+* Servidor: `localhost`;
+* Banco de dados: `datawarehouse`;
+* Em 'Modo de Conectividade de Dados' selecione 'Direct Query';
+* Clique em 'OK'.
+
+Em caso de sucesso na conexão, uma guia do Power BI será aberta solicitando que selecione as tabelas que deseja importar para o arquivo.
