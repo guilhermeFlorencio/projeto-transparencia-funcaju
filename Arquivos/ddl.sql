@@ -25,6 +25,7 @@ CREATE TABLE dm_temporal (
     id_data INTEGER NOT NULL,
     ano     INTEGER,
     mes     INTEGER,
+    desc_mes VARCHAR,
     dia     INTEGER
 );
 

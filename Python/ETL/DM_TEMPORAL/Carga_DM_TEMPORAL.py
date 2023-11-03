@@ -8,6 +8,12 @@ dataframes = []
 conexao = {'dbname': 'datawarehouse','user': 'postgres','password': 'postgres','host': 'postgres','port': '5432',}
 i = j = 0
 
+meses = {'01':'Janeiro', '02':'Fevereiro', '03':'Março',
+        '04':'Abril', '05':'Maio', '06':'Junho',
+        '07':'Julho', '08':'Agosto', '09':'Setembro',
+        '10':'Outubro', '11':'Novembro', '12':'Dezembro',
+        }
+
 # conexão com o banco de dados
 def abrir_conexao():
     conn = psycopg2.connect(**conexao)
@@ -16,7 +22,7 @@ def abrir_conexao():
 
 # inserção no banco de dados
 def inserir_dados(conn, cursor, dados):
-    query = 'INSERT INTO dm_temporal (id_data, ano, mes, dia) VALUES (%s, %s, %s, %s)'
+    query = 'INSERT INTO dm_temporal (id_data, ano, mes, desc_mes, dia) VALUES (%s, %s, %s, %s, %s)'
     cursor.execute(query, dados)
 
 # Leitura das tabelas Empenho, Pagamento e Liquidação
@@ -48,8 +54,9 @@ def iterar_df_final(df):
         id_data = linha['id_data']
         ano = linha['ano']
         mes = linha['mes']
+        desc_mes = meses[mes]
         dia = linha['dia']
-        dados = (id_data, ano, mes, dia)
+        dados = (id_data, ano, mes, desc_mes, dia)
         inserir_dados(conn, cursor, dados)
     conn.commit()
     conn.close()

@@ -34,7 +34,7 @@ Com o Power BI aberto, siga:
 * Pesquise por 'Banco de dados PostgreSQL' e clique para conectar; 
 * Servidor: `localhost`;
 * Banco de dados: `datawarehouse`;
-* Em 'Modo de Conectividade de Dados' selecione 'Direct Query';
+* Em 'Modo de Conectividade de Dados' selecione 'Importar Dados';
 * Clique em 'OK'.
 
 Em caso de sucesso na conexão, uma guia do Power BI será aberta solicitando que selecione as tabelas que deseja importar para o arquivo.
