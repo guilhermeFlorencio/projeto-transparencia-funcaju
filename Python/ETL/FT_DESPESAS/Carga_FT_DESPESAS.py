@@ -107,7 +107,7 @@ def iterar_df(df):
         valor_liquidado = linha['Liquidado']
         valor_pago = linha['Pago']
         valor_retido = linha['Retido']
-        valor_anulado = linha['Anulado']
+        valor_anulado = linha['Anulação']
         desc_despesa = linha['desc_despesa']
         codigo_nacional_credor = linha['codigo_nacional_credor']
         desc_credor = linha['desc_credor']
