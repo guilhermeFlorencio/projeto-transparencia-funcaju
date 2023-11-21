@@ -38,3 +38,9 @@ Com o Power BI aberto, siga:
 * Clique em 'OK'.
 
 Em caso de sucesso na conexão, uma guia do Power BI será aberta solicitando que selecione as tabelas que deseja importar para o arquivo.
+***
+
+## Para ver o resultado do trabalho: 
+#### Visualizando o dashboard
+* [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzRhY2VjYTgtZWFmYi00Mjc0LTljMWItNzVjMmFmZjRjNWYyIiwidCI6IjdkZDg4NjA3LWIzMTUtNGI2Ni05MTFhLWI5OThjMTBhZDQ0ZSJ9).
+* Caso deseje editar o dashboard, baixe o arquivo [.pbix](https://github.com/eduardojnr/portal-transparencia-Emurb/blob/main/portal-transparencia-Emurb.pbix) e abra com o Power BI Desktop.
