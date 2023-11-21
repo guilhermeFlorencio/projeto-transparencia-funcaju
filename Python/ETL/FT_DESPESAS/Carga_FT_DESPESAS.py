@@ -44,6 +44,7 @@ def lendo_tabelas(anos, tipo_despesa, dataframes):
             for j in range(len(anos)):
                 df = pd.read_excel(f'/dados/Despesas{desc_tipo_despesa[i]}/Despesas-{tipo_despesa[i]}-{anos[j]}.xlsx')  # usecols('Coluna')' Coluna a buscar
                 df[['id_item_despesa', 'desc_item_despesa']] = df['DsItemDespesa'].str.split(' - ', n=1, expand=True)
+                df = df.rename(columns={'Anulado': 'Anulação'})
                 df = definir_tipo_despesa(tipo_despesa, i, df)
                 dataframes.append(df)
 
